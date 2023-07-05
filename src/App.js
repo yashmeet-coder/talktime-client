@@ -4,7 +4,7 @@ import socketIO from 'socket.io-client'
 import Home from './components/Home';
 import ChatPage from './components/ChatPage';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-const socket = socketIO.connect("http://localhost:5000/")
+const socket = socketIO.connect("https://talktime-server.onrender.com/")
 function App() {
   return (
     <BrowserRouter>
