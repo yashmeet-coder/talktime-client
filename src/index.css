@@ -153,3 +153,25 @@
   font-size: 13px;
   font-style: italic;
 }
+
+@media only screen and (max-width: 550px)  {
+  .chat__sidebar{
+    display: none;
+  }
+
+  .chat__main{
+    flex: 1;
+  }
+
+  .message__sender{
+    max-width: 200px;
+  }
+
+  .message{
+    max-width: 200px;
+  }
+
+  .react-emoji-picker--wrapper{
+    right: -100px !important;
+  }
+}
